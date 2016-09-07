@@ -1,4 +1,4 @@
-# Code Book
+### Code Book
 
 This code book summarizes the resulting data fields in the tidy data, `tidydata.txt` file.
 
