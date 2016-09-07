@@ -11,7 +11,7 @@ A full description of the data used in this project can be found at [The UCI Mac
 [The source data for this project can be found here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ## Reproduceability of this script
-This script is well written to be reproduceable. And the download and unzippng of the source data and creation of working directory is automated as necessary and does not need a manual editing. But if you must download the source data outside R, then you must create a directory named "UCI HAR Dataset" containing all needed source data and with folder structure identical to the zip file of the source data. And set your working directory within R to the afore-mentioned directory  so as to prevent any logical errors in the beginning of this script.
+The script, `run_analysis.R` is well written to be reproduceable. And the download and unzippng of the source data and creation of working directory is automated as necessary and does not need a manual editing. But if you must download the source data outside R, then you must create a directory named "UCI HAR Dataset" containing all needed source data and with folder structure identical to the zip file of the source data. And set your working directory within R to the afore-mentioned directory  so as to prevent any logical errors in the beginning of this script.
 
 For the purpose of this project, the files in Inertial Signals folders are not used. The files that was used are as follows:
 
@@ -47,6 +47,8 @@ You should create one R script called run_analysis.R that does the following:
 4. Appropriately labels the data set with descriptive activity names. 
 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+The tidy data set is `tidydata.txt`
 
 ## Additional Information
 You can find additional information about the variables, data and transformations in the CodeBook.md file.
