@@ -1,4 +1,4 @@
-### Code Book
+# Code Book
 
 This code book summarizes the resulting data fields in the tidy data, `tidydata.txt` file.
 
@@ -88,7 +88,11 @@ This code book summarizes the resulting data fields in the tidy data, `tidydata.
 
 ## The tidy data set
 The tidy data set, `tidydata.txt`, is a set of variables for each activity and each subject. 
+
 10299 observations was split into 180 groups (30 subjects and 6 activities). 
+
 And 66 mean and standard deviation features were averaged for each group. 
+
 The resulting data table has 180 rows and 68 columns . 
+
 The 69 columns consists of 1 subject(30 factor levels of subjects), 1 activity(6 factor levels of activity), 33 Mean variables, 33 Standard deviation variables. The tidy data set’s first row is the header containing the names for each column.
